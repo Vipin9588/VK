@@ -1,8 +1,28 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const projectsData = [
+ {
+  id: 1,
+  title: "FlowWork CRM",
+  desc: "Built a modern CRM application using React, TypeScript, Firebase, and Tailwind CSS to streamline customer and workflow management. Features secure authentication, real-time Firestore integration, responsive design, and complete CRUD functionality.",
+  fullDesc:
+    "FlowWork is a modern Customer Relationship Management (CRM) application designed to help businesses efficiently manage customers and daily workflows. Built with React, TypeScript, Firebase, and Tailwind CSS, it offers secure Firebase Authentication, real-time Firestore database integration, reusable components, and a responsive user interface. The project demonstrates modern frontend development practices, including scalable architecture, type-safe code, and efficient CRUD operations for seamless data management.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Firebase",
+    "Firestore",
+    "Tailwind CSS",
+    "React Router",
+    "Vite"
+  ],
+  img: "./crm.png",
+  live: "https://flowwork-gamma.vercel.app/",
+  github: "#",
+}
+,
   {
-    id: 1,
+    id: 2,
     title: "IRONFORGE Gym Website",
     desc: "A modern, responsive gym website designed to attract customers, showcase membership plans, and improve online presence.",
     fullDesc:
@@ -14,7 +34,7 @@ const projectsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "ShopEasy (Ecommerce UI)",
     desc: "A modern and responsive ecommerce user interface for seamless online shopping experience.",
     fullDesc:
@@ -25,7 +45,7 @@ const projectsData = [
     github: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "ConnectHub (Video Call  Chat App)",
     desc: "A real-time communication app supporting video calls and messaging.",
     fullDesc:
@@ -36,7 +56,7 @@ const projectsData = [
     github: "#",
   },
  {
-  id: 4,
+  id: 5,
   title: "Car Showcase Website",
   desc: "A responsive website to showcase cars with modern UI and smooth user experience.",
   fullDesc:
